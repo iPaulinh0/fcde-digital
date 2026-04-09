@@ -32,18 +32,21 @@ export default function Coluna() {
                     <span className="text-start">Deverá informar torque aplicado: K2G: 20-30 Kgf/cm</span>
                     <span className="text-center">Visual/Manual</span>
                     <input type="number" className="text-center bg-zinc-100 rounded-md ring-1 ring-red-500 p-2 w-fit mx-auto focus:outline-2 focus:outline-red-500" placeholder="Informe a média" max={2}/>
+                    <span className="mb-2"><Image src='/item2.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Faixa de Torque</span>
                     <span className="text-start">Deverá informar torque aplicado: K1S: 20-30 Kgf/cm</span>
                     <span className="text-center">Visual/Manual</span>
                     <input type="number" className="text-center bg-zinc-100 rounded-md ring-1 ring-red-500 p-2 w-fit mx-auto focus:outline-2 focus:outline-red-500" placeholder="Informe a média" max={2}/>
+                    <span className="mb-2"><Image src='/item2.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Faixa de Torque</span>
                     <span className="text-start">Deverá informar torque aplicado: K99: 30-40 Kgf/cm</span>
                     <span className="text-center">Visual/Manual</span>
                     <input type="number" className="text-center bg-zinc-100 rounded-md ring-1 ring-red-500 p-2 w-fit mx-auto focus:outline-2 focus:outline-red-500" placeholder="Informe a média" max={2}/>
+                    <span className="mb-2"><Image src='/item2.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Gatilho de Acionamento</span>
@@ -55,7 +58,7 @@ export default function Coluna() {
                         <ToggleGroupItem value="OK"><CircleCheck className="text-emerald-500 size-6"/></ToggleGroupItem>
                         <ToggleGroupItem value="NG"><CircleSlash className="text-red-500 size-6"/></ToggleGroupItem>
                     </ToggleGroup>
-                    <span className="mb-2"><Image src='/item1.png' alt="item de inspeção 1" width={200} height={200}/></span>
+                    <span className="mb-2"><Image src='/item4.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Pino de seleção de sentido de rotação. <br /> Chave Soquete</span>
@@ -67,7 +70,7 @@ export default function Coluna() {
                         <ToggleGroupItem value="OK" size={"lg"}><CircleCheck className="text-emerald-500 size-6"/></ToggleGroupItem>
                         <ToggleGroupItem value="NG"><CircleSlash className="text-red-500 size-6"/></ToggleGroupItem>
                     </ToggleGroup>
-                    <span className="mb-2"><Image src='/item1.png' alt="item de inspeção 1" width={200} height={200}/></span>
+                    <span className="mb-2"><Image src='/item5.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Braço de reação</span>
@@ -79,7 +82,7 @@ export default function Coluna() {
                         <ToggleGroupItem value="OK" size={"lg"}><CircleCheck className="text-emerald-500 size-6"/></ToggleGroupItem>
                         <ToggleGroupItem value="NG"><CircleSlash className="text-red-500 size-6"/></ToggleGroupItem>
                     </ToggleGroup>
-                    <span className="mb-2"><Image src='/item1.png' alt="item de inspeção 1" width={200} height={200}/></span>
+                    <span className="mb-2"><Image src='/item6.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-b-2 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Balancim</span>
@@ -91,7 +94,7 @@ export default function Coluna() {
                         <ToggleGroupItem value="OK" size={"lg"}><CircleCheck className="text-emerald-500 size-6"/></ToggleGroupItem>
                         <ToggleGroupItem value="NG"><CircleSlash className="text-red-500 size-6"/></ToggleGroupItem>
                     </ToggleGroup>
-                    <span className="mb-2"><Image src='/item1.png' alt="item de inspeção 1" width={200} height={200}/></span>
+                    <span className="mb-2"><Image src='/item7.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <div className="grid grid-cols-5 border-zinc-300 gap-2 items-center py-6">
                     <span className="font-semibold">Selo de calibração</span>
@@ -103,7 +106,7 @@ export default function Coluna() {
                         <ToggleGroupItem value="OK" size={"lg"}><CircleCheck className="text-emerald-500 size-6"/></ToggleGroupItem>
                         <ToggleGroupItem value="NG"><CircleSlash className="text-red-500 size-6"/></ToggleGroupItem>
                     </ToggleGroup>
-                    <span className="mb-2"><Image src='/item1.png' alt="item de inspeção 1" width={200} height={200}/></span>
+                    <span className="mb-2"><Image src='/item8.png' alt="item de inspeção 1" width={200} height={200}/></span>
                 </div>
                 <Dialog>
                     <DialogTrigger asChild>
